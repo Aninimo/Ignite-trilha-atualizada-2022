@@ -1,0 +1,22 @@
+:root{
+  --blue: #0096C7;
+  --blue-hover: #2A6F97;
+  --background: #00171F;
+  --black: #252323;
+  --violet: #9D4EDD;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+body{
+  background: var(--background);
+  font-family: 'Poppins',sans-serif;
+}
+
+ul{
+  list-style: none;
+}
