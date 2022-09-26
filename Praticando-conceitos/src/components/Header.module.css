@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--blue);
+}
+
+span{
+  color: var(--violet);
+}
+
+
+.newTaskForm{
+  margin-top: 2rem;
+  display: flex;
+  gap: .5rem;
+}
+
+.input{
+  padding: .5rem 1.2rem;
+  border-radius: .5rem;
+  border: none;
+}
+
+.button{
+  padding: .5rem 2.5rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--blue);
+  color: #fff;
+  cursor: pointer;
+
+  transition: .5s;
+}
+
+.button:hover{
+  background: var(--blue-hover);
+}
