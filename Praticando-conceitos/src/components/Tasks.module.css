@@ -1,0 +1,18 @@
+.container{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--black);
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+span{
+  font-size: 1.7rem;
+  background: none;
+  border: none;
+}
