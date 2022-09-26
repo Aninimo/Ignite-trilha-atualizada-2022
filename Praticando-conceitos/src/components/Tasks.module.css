@@ -1,0 +1,59 @@
+.section{
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--blue);
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--violet);
+  gap: .5rem;
+}
+
+.span{
+  color: #fff;
+  font-size: 1rem;
+  background: var(--black);
+  padding: .5rem;
+  border-radius: 8px;
+}
+
+.tasksCreated{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.clipSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  color: gray;
+   margin-top: 1rem;
+}
+
+.spanText{
+  font-size: 1rem;
+  color: gray;
+}
